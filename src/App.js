@@ -17,7 +17,7 @@ export default function App() {
         <img src={ logo } className="App-logo" alt="logo" />
       </header>
       <Switch>
-        <Route exact path="/" component={ Login } />
+        <Route exact path="/trivia" component={ Login } />
         <Route exact path="/gameplay" component={ GameScreen } />
         <Route exact path="/settings" component={ SettingsScreen } />
         <Route exact path="/ranking" component={ Ranking } />

@@ -27,7 +27,7 @@ class FeedBack extends Component {
         { assertions < feedBack
           ? <p data-testid="feedback-text">Podia ser melhor...</p>
           : <p data-testid="feedback-text">Mandou bem!</p>}
-        <Link to="/">
+        <Link to="/trivia">
           <BtnRestart />
         </Link>
         <Link to="ranking">
