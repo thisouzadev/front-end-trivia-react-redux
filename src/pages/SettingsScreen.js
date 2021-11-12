@@ -80,7 +80,7 @@ class SettingsScreen extends React.Component {
         </form>
         <br />
         <br />
-        <Link to="/">
+        <Link to="/trivia">
           <button type="button" className="buttonLogin btn btn-primary">
             Voltar para o login
           </button>

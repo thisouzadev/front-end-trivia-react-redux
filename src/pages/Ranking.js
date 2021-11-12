@@ -40,7 +40,7 @@ class Ranking extends Component {
                 />
               ))}
           </div>
-          <Link to="/">
+          <Link to="/trivia">
             <button
               className="btn btn-primary"
               type="button"
